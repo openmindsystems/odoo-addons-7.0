@@ -1,0 +1,1087 @@
+<?xml version="1.0"?>
+<document filename="test.pdf">
+  <template pageSize="(595.0,842.0)" title="Test" author="Martin Simon" allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="11.0" y1="11.0" width="573" height="820"/>
+
+    </pageTemplate>
+  </template>
+  <stylesheet>
+    <blockTableStyle id="Standard_Outline">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="TOP">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+
+    </blockTableStyle>
+    <blockTableStyle id="GENERAL">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,3" stop="0,-3"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,3" stop="0,-3"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="TOP_GENERAL">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="TOP_GENERAL_PAG_2_3">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+
+
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_1">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_NIF">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+
+    </blockTableStyle>
+    <blockTableStyle id="BOX_NIF">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="DENOMINACION">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="DENOMINACION_LINES">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_UNIDAD">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_EUROS">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_CHECK_EUROS">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,1" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,1" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,1" stop="0,1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="CHECK_EUROS">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_ENCABEZADO_LINES">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="3,0" stop="3,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="3,-1" stop="3,-1"/>
+
+
+    </blockTableStyle>
+    <blockTableStyle id="BLOCK_LINES">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+
+
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>   
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="3,0" stop="3,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="3,-1" stop="3,-1"/>
+
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="4,0" stop="4,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="4,0" stop="4,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="4,0" stop="4,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="4,-1" stop="4,-1"/>
+
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,0" stop="4,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,1" stop="4,1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,2" stop="4,2"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,3" stop="4,3"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,4" stop="4,4"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,5" stop="4,5"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,6" stop="4,6"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,7" stop="4,7"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,8" stop="4,8"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,9" stop="4,9"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,10" stop="4,10"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,11" stop="4,11"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,12" stop="4,12"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,13" stop="4,13"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,14" stop="4,14"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,15" stop="4,15"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,16" stop="4,16"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,17" stop="4,17"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,18" stop="4,18"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,19" stop="4,19"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,20" stop="4,20"/>
+
+    </blockTableStyle>
+    <initialize>
+      <paraStyle name="all" alignment="justify"/>
+    </initialize>
+    <paraStyle name="P1" fontName="Helvetica-Bold" fontSize="11.0" leading="10"/>
+    <paraStyle name="P2" fontName="Helvetica-Bold" fontSize="11.0" leading="10" alignment="CENTER"/>
+    <paraStyle name="P3" fontName="Helvetica-Bold" fontSize="11.0" leading="10" alignment="RIGHT"/>
+    <paraStyle name="P4" fontName="Helvetica" fontSize="7.0" leading="6"/>
+    <paraStyle name="P5" fontName="Helvetica" fontSize="7.0" leading="6"/>
+    <paraStyle name="P6" fontName="Helvetica" fontSize="7.0" leading="6" alignment="CENTER"/>
+    <paraStyle name="P7" fontName="Helvetica" fontSize="7.0" leading="8"/>
+    <paraStyle name="P8" fontName="Helvetica-Bold" fontSize="7.0" leading="8"/>
+    <paraStyle name="P9" fontName="Helvetica-Bold" fontSize="7.0" leading="6" alignment="CENTER"/>
+    <paraStyle name="P10" fontName="Helvetica" fontSize="6.0" leading="6"/>
+    <paraStyle name="P11" fontName="Helvetica" fontSize="7.0" leading="6"/>
+    <paraStyle name="P12" fontName="Helvetica" fontSize="7.0" leading="6"/>
+    <paraStyle name="P14" fontName="Helvetica" fontSize="7.0" leading="6"/>
+    <paraStyle name="P15" fontName="Helvetica" fontSize="7.0" leading="6"/>
+    <paraStyle name="Standard" fontName="Helvetica"/>
+    <paraStyle name="Heading" fontName="Helvetica" fontSize="14.0" leading="6" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="Text body" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="List" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="Caption" fontName="Helvetica" fontSize="12.0" leading="6" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="Index" fontName="Helvetica"/>
+    <paraStyle name="Table Contents" fontName="Helvetica"/>
+    <paraStyle name="Table Heading" fontName="Helvetica" alignment="CENTER"/>
+    <images/>
+  </stylesheet>
+  <story>
+    <para style="Standard">[[repeatIn(objects,'report')]]</para>
+    <para style="Standard">[[setLang(user.lang)]]</para>
+    <para style="Standard">[[putInArrays(report)]]</para>
+
+    <blockTable colWidths="191.0,191.0,191.0" style="TOP">
+      <tr>
+        <td>
+          <para style="P1">B</para>
+        </td>
+        <td>
+          <para style="P2">BALANCE DE PYMES</para>
+          <para style="P2">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="P3">BP1</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="573.0" style="GENERAL">
+      <tr>
+        <td>
+          <blockTable colWidths="170.0,234.0,168.0" style="TOP_GENERAL">
+            <tr>
+              <td>
+                <blockTable colWidths="170.0" style="BLOCK_1">
+                  <tr>
+                    <td>
+                      <blockTable colWidths="31.0,128.0" style="BLOCK_NIF">
+                        <tr>
+                          <td>
+                            <para style="P12">NIF:</para>
+                          </td>
+                          <td>
+                            <blockTable colWidths="92.0" style="BOX_NIF">
+                              <tr>
+                                <td>
+                                  <para style="P11">
+                                    [[nifCompany()]]
+                                  </para>
+                                </td>
+                              </tr>
+                            </blockTable>
+                            <para style="P11">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <blockTable colWidths="159.0" style="DENOMINACION">
+                        <tr>
+                          <td>
+                            <para style="P11">DENOMINACIÓN SOCIAL:</para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <blockTable colWidths="145.0" style="DENOMINACION_LINES">
+                        <tr>
+                          <td>
+                            <para style="P15">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <para style="P15">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <para style="P15">
+                        <font color="white"> </font>
+                      </para>
+                    </td>
+                  </tr>
+                </blockTable>
+                <para style="P15">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P10">Espacio destinado para las firmas de los administradores</para>
+                <para style="P10">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <blockTable colWidths="168.0" style="BLOCK_UNIDAD">
+                  <tr>
+                    <td>
+                      <para style="P8">UNIDAD (1)</para>
+                      <blockTable colWidths="34.0,70.0" style="BLOCK_EUROS">
+                        <tr>
+                          <td>
+                            <para style="P5">Euros:</para>
+                          </td>
+                          <td>
+                            <blockTable colWidths="32.0,32.0" style="BLOCK_CHECK_EUROS">
+                              <tr>
+                                <td>
+				<para style="P5">
+				  <font color="white"> </font>
+				</para>
+                                  <para style="P9">09001</para>
+                                </td>
+                                <td>
+                                  <blockTable colWidths="18.0" style="CHECK_EUROS">
+                                    <tr>
+                                      <td>
+                                        <para style="P9">X</para>
+                                      </td>
+                                    </tr>
+                                  </blockTable>
+                                  <para style="P5">
+                                    <font color="white"> </font>
+                                  </para>
+                                </td>
+                              </tr>
+                            </blockTable>
+                            <para style="P4">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <para style="P4">
+                        <font color="white"> </font>
+                      </para>
+                    </td>
+                  </tr>
+                </blockTable>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <blockTable colWidths="331.0,56.0,94.0,93.0" style="BLOCK_ENCABEZADO_LINES">
+            <tr>
+              <td>
+                <para style="P6">ACTIVO</para>
+              </td>
+              <td>
+                <para style="P6">NOTAS DE LA MEMORIA</para>
+              </td>
+              <td>
+                <para style="P6">EJERCICIO [[report.current_fiscalyear_id.name]] (2)</para>
+              </td>
+              <td>
+                <para style="P6">EJERCICIO [[report.previous_fiscalyear_id.name]] (3)</para>
+              </td>
+            </tr>
+          </blockTable>
+        </td>
+      </tr>   
+      <tr>
+        <td>
+	<blockTable colWidths="284.0,48.0,55.0,94.0,92.0" style="BLOCK_LINES">
+	    <para>[[repeatIn(getFirstArray(),'line')]]</para>
+            <tr>
+              <td>
+		<para style="P8">[[ line['name'] ]]</para>
+              </td>
+              <td>
+		<para style="P9">[[line.code]]</para>
+              </td>
+              <td>
+		<para style="P9">[[line.notes]]</para>
+              </td>
+              <td>
+		<para style="P9">[[formatLang(line['current_value'])]]</para>
+              </td>
+              <td>
+		<para style="P9">[[report.previous_fiscalyear_id and formatLang(line['previous_value'])]]</para>
+              </td>
+            </tr>
+          </blockTable>
+        </td>
+      </tr>
+      <tr>
+      <td>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <para style="P10"/>
+          <para style="P10">(1) Todos los documentos que integran las cuentas anuales se elaborarán expresando sus valores en euros.</para>
+          <para style="P10">(2) Ejercicio al que van referidas las cuentas anuales.</para>
+          <para style="P10">(3) Ejercicio anterior.</para>
+          <para style="P10">
+            <font color="white"> </font>
+          </para>
+        </td>
+      </tr>
+    </blockTable>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+
+<!-- PAG 2 --> 
+
+    <blockTable colWidths="191.0,191.0,191.0" style="TOP">
+      <tr>
+        <td>
+          <para style="P1">B</para>
+        </td>
+        <td>
+          <para style="P2">BALANCE DE PYMES</para>
+          <para style="P2">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="P3">BP2.1</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="573.0" style="GENERAL">
+      <tr>
+        <td>
+          <blockTable colWidths="170.0,234.0,168.0" style="TOP_GENERAL_PAG_2_3">
+            <tr>
+              <td>
+                <blockTable colWidths="170.0" style="BLOCK_1">
+                  <tr>
+                    <td>
+                      <blockTable colWidths="31.0,128.0" style="BLOCK_NIF">
+                        <tr>
+                          <td>
+                            <para style="P12">NIF:</para>
+                          </td>
+                          <td>
+                            <blockTable colWidths="92.0" style="BOX_NIF">
+                              <tr>
+                                <td>
+                                  <para style="P11">
+                                    [[nifCompany()]]
+                                  </para>
+                                </td>
+                              </tr>
+                            </blockTable>
+                            <para style="P11">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <blockTable colWidths="159.0" style="DENOMINACION">
+                        <tr>
+                          <td>
+                            <para style="P11">DENOMINACIÓN SOCIAL:</para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <blockTable colWidths="145.0" style="DENOMINACION_LINES">
+                        <tr>
+                          <td>
+                            <para style="P15">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <para style="P15">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <para style="P15">
+                        <font color="white"> </font>
+                      </para>
+                    </td>
+                  </tr>
+                </blockTable>
+                <para style="P15">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P10">Espacio destinado para las firmas de los administradores</para>
+                <para style="P10">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <blockTable colWidths="331.0,56.0,94.0,93.0" style="BLOCK_ENCABEZADO_LINES">
+            <tr>
+              <td>
+                <para style="P6">ACTIVO</para>
+              </td>
+              <td>
+                <para style="P6">NOTAS DE LA MEMORIA</para>
+              </td>
+              <td>
+                <para style="P6">EJERCICIO [[report.current_fiscalyear_id.name]] (2)</para>
+              </td>
+              <td>
+                <para style="P6">EJERCICIO [[report.previous_fiscalyear_id.name]] (3)</para>
+              </td>
+            </tr>
+          </blockTable>
+        </td>
+      </tr>   
+      <tr>
+        <td>
+	<blockTable colWidths="284.0,48.0,55.0,94.0,92.0" style="BLOCK_LINES">
+	    <para>[[repeatIn(getSecondArray(),'line')]]</para>
+            <tr>
+              <td>
+		<para style="P8">[[ line['name'] ]]</para>
+              </td>
+              <td>
+		<para style="P9">[[line.code]]</para>
+              </td>
+              <td>
+		<para style="P9">[[line.notes]]</para>
+              </td>
+              <td>
+		<para style="P9">[[formatLang(line['current_value'])]]</para>
+              </td>
+              <td>
+		<para style="P9">[[report.previous_fiscalyear_id and formatLang(line['previous_value'])]]</para>
+              </td>
+            </tr>
+          </blockTable>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <para style="P10"/>
+          <para style="P10">(1) Todos los documentos que integran las cuentas anuales se elaborarán expresando sus valores en euros.</para>
+          <para style="P10">(2) Ejercicio al que van referidas las cuentas anuales.</para>
+          <para style="P10">(3) Ejercicio anterior.</para>
+          <para style="P10">
+            <font color="white"> </font>
+          </para>
+        </td>
+      </tr>
+    </blockTable>
+
+<!-- PAG 3 -->
+
+    <blockTable colWidths="191.0,191.0,191.0" style="TOP">
+      <tr>
+        <td>
+          <para style="P1">B</para>
+        </td>
+        <td>
+          <para style="P2">BALANCE DE PYMES</para>
+          <para style="P2">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="P3">BP2.2</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="573.0" style="GENERAL">
+      <tr>
+        <td>
+          <blockTable colWidths="170.0,234.0,168.0" style="TOP_GENERAL_PAG_2_3">
+            <tr>
+              <td>
+                <blockTable colWidths="170.0" style="BLOCK_1">
+                  <tr>
+                    <td>
+                      <blockTable colWidths="31.0,128.0" style="BLOCK_NIF">
+                        <tr>
+                          <td>
+                            <para style="P12">NIF:</para>
+                          </td>
+                          <td>
+                            <blockTable colWidths="92.0" style="BOX_NIF">
+                              <tr>
+                                <td>
+                                  <para style="P11">
+                                    [[nifCompany()]]
+                                  </para>
+                                </td>
+                              </tr>
+                            </blockTable>
+                            <para style="P11">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <blockTable colWidths="159.0" style="DENOMINACION">
+                        <tr>
+                          <td>
+                            <para style="P11">DENOMINACIÓN SOCIAL:</para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <blockTable colWidths="145.0" style="DENOMINACION_LINES">
+                        <tr>
+                          <td>
+                            <para style="P15">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <para style="P15">
+                              <font color="white"> </font>
+                            </para>
+                          </td>
+                        </tr>
+                      </blockTable>
+                      <para style="P15">
+                        <font color="white"> </font>
+                      </para>
+                    </td>
+                  </tr>
+                </blockTable>
+                <para style="P15">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P10">Espacio destinado para las firmas de los administradores</para>
+                <para style="P10">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <blockTable colWidths="331.0,56.0,94.0,93.0" style="BLOCK_ENCABEZADO_LINES">
+            <tr>
+              <td>
+                <para style="P6">ACTIVO</para>
+              </td>
+              <td>
+                <para style="P6">NOTAS DE LA MEMORIA</para>
+              </td>
+              <td>
+                <para style="P6">EJERCICIO [[report.current_fiscalyear_id.name]] (2)</para>
+              </td>
+              <td>
+                <para style="P6">EJERCICIO [[report.previous_fiscalyear_id.name]] (3)</para>
+              </td>
+            </tr>
+          </blockTable>
+        </td>
+      </tr>   
+      <tr>
+        <td>
+	<blockTable colWidths="284.0,48.0,55.0,94.0,92.0" style="BLOCK_LINES">
+	    <para>[[repeatIn(getThirdArray(),'line')]]</para>
+            <tr>
+              <td>
+		<para style="P8">[[ line['name'] ]]</para>
+              </td>
+              <td>
+		<para style="P9">[[line.code]]</para>
+              </td>
+              <td>
+		<para style="P9">[[line.notes]]</para>
+              </td>
+              <td>
+		<para style="P9">[[formatLang(line['current_value'])]]</para>
+              </td>
+              <td>
+		<para style="P9">[[report.previous_fiscalyear_id and formatLang(line['previous_value'])]]</para>
+              </td>
+            </tr>
+          </blockTable>
+        </td>
+      </tr>
+
+       <tr>
+      <td>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+          <para style="P4">
+            <font color="white"> </font>
+          </para>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <para style="P10"/>
+          <para style="P10">(1) Todos los documentos que integran las cuentas anuales se elaborarán expresando sus valores en euros.</para>
+          <para style="P10">(2) Ejercicio al que van referidas las cuentas anuales.</para>
+          <para style="P10">(3) Ejercicio anterior.</para>
+          <para style="P10">
+            <font color="white"> </font>
+          </para>
+        </td>
+      </tr>
+    </blockTable>
+  </story>
+</document>
+

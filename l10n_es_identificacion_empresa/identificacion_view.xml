@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+# -*- coding: utf-8 -*-
+##############################################################################
+#
+#    Copyright (C) 2014
+#        Openmindsystems. (http://www.openmindsystems.com.es) All Rights Reserved
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
+-->
+
+<openerp>
+	<data>
+
+		<record model="ir.ui.view" id="res_company_identificacion_form">
+			<field name="name">res.company.identificacion.form</field>
+			<field name="model">res.company</field>
+			<field name="inherit_id" ref="base.view_company_form" />
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<xpath expr="/form/sheet/notebook/page" position="after">
+					<page string="Datos de identificación">
+						<group>
+							<field name="actividad_empresa"/>
+							<field name="codigo_cnae"/>
+							<field name="forma_juridica"/>
+							<field name="forma_juridica_otras"/>
+							<field name="dominante_directa"/>
+							<field name="nif_directa"/>
+							<field name="dominante_ultima_grupo"/>
+							<field name="nif_ultima_grupo"/>
+						</group>
+					</page>
+				</xpath>
+			</field>
+		</record>
+		<record id="view_res_company_datos_generales_identificacion_tree" model="ir.ui.view">
+			<field name="name">res.company.datos.generales.identificacion.tree</field>
+			<field name="model">res.company.datos.generales.identificacion</field>
+			<field name="type">tree</field>
+			<field name="arch" type="xml">
+				<tree string="Ejercicio">
+					<field name="nombre_ejercicio"/>
+				</tree>
+			</field>
+		</record>
+		<record id="view_res_company_datos_generales_identificacion_form" model="ir.ui.view">
+			<field name="name">res.company.datos.generales.identificacion.form</field>
+			<field name="model">res.company.datos.generales.identificacion</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<form string="Hoja de identificación">
+					<field name="nombre_ejercicio" />
+					<field name="asalariado_fijo" />
+					<field name="asalariado_no_fijo" />
+					<field name="asalariado_discapacidad" />
+					<field name="asalariado_fijo_hombre" />
+					<field name="asalariado_fijo_mujer" />
+					<field name="asalariado_no_fijo_hombre" />
+					<field name="asalariado_no_fijo_mujer" />
+					<field name="fecha_inicio" />
+					<field name="fecha_cierre" />
+					<field name="paginas_deposito" />
+					<field name="causa_no_figurar" />
+				</form>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="custom_action_res_company_datos_generales_identificacion_view">
+			<field name="name">Datos Generales de Identificación</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">res.company.datos.generales.identificacion</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="custom_action_res_company_datos_generales_identificacion_tree" model="ir.actions.act_window.view">
+			<field name="view_mode">tree</field>
+			<field name="view_id" ref="view_res_company_datos_generales_identificacion_tree"/>
+			<field name="act_window_id" ref="custom_action_res_company_datos_generales_identificacion_view"/>
+		</record>
+		<record id="custom_action_res_company_datos_generales_identificacion_form" model="ir.actions.act_window.view">
+			<field name="view_mode">form</field>
+			<field name="view_id" ref="view_res_company_datos_generales_identificacion_form"/>
+			<field name="act_window_id" ref="custom_action_res_company_datos_generales_identificacion_view"/>
+		</record>
+
+		<!--MENUS -->
+		<menuitem name="Hoja de identificación" parent="account.menu_finance_legal_statement" id="menu_identificacion_open_view" icon="STOCK_OPEN" action="custom_action_res_company_datos_generales_identificacion_view"/>
+
+	</data>
+</openerp>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#
+#    Copyright (C) 2014
+#        Openmindsystems. (http://www.openmindsystems.com.es) All Rights Reserved
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+-->
+
+<openerp>
+	<data>
+
+		<!-- Balance PYMES Telemático -->
+		<report id="report_account_balance_reporting_spanish"
+			string="Balance PYME Telemático"
+			model="account.balance.reporting"
+			name="report.account.balance.reporting.spanish"
+			rml="addons/l10n_es_account_balance_report_telematic/report/balance_pyme_telematic_report.odt"
+			auto="True"
+			menu="False"
+			header="False" 
+			report_type="odt"/>
+
+		<!-- Balance Abreviado Telemático -->
+		<report id="report_account_balance_abreviado_reporting_spanish"
+			string="Balance Abreviado Telemático"
+			model="account.balance.reporting"
+			name="report.account.balance.abreviado.reporting.spanish"
+			rml="addons/l10n_es_account_balance_report_telematic/report/balance_abreviado_telematic_report.odt"
+			auto="True"
+			menu="False"
+			header="False" 
+			report_type="odt"/>		
+			
+		<!-- Balance Completo Telemático -->
+		<report id="report_account_balance_completo_reporting_spanish"
+			string="Balance Completo Telemático"
+			model="account.balance.reporting"
+			name="report.account.balance.completo.reporting.spanish"
+			rml="addons/l10n_es_account_balance_report_telematic/report/balance_completo_telematic_report.odt"
+			auto="True"
+			menu="False"
+			header="False" 
+			report_type="odt"/>			
+			
+		<!-- PyG PYMES Telemático -->
+		<report id="report_account_pg_reporting_spanish"
+			string="PyG PYME Telemático"
+			model="account.balance.reporting"
+			name="report.account.pg.reporting.spanish"
+			rml="addons/l10n_es_account_balance_report_telematic/report/pg_pyme_telematic_report.odt"
+			auto="True"
+			menu="False"
+			header="False" 
+			report_type="odt"/>		
+
+		<!-- PyG Abreviado Telemático -->
+		<report id="report_account_pg_abreviado_reporting_spanish"
+			string="PyG Abreviado Telemático"
+			model="account.balance.reporting"
+			name="report.account.pg.abreviado.reporting.spanish"
+			rml="addons/l10n_es_account_balance_report_telematic/report/pg_abreviado_telematic_report.odt"
+			auto="True"
+			menu="False"
+			header="False" 
+			report_type="odt"/>	
+			
+		<!-- PyG Completo Telemático -->
+		<report id="report_account_pg_completo_reporting_spanish"
+			string="PyG Completo Telemático"
+			model="account.balance.reporting"
+			name="report.account.pg.completo.reporting.spanish"
+			rml="addons/l10n_es_account_balance_report_telematic/report/pg_completo_telematic_report.odt"
+			auto="True"
+			menu="False"
+			header="False" 
+			report_type="odt"/>				
+
+	</data>
+</openerp>

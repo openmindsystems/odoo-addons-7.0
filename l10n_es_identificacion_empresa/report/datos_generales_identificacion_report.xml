@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#
+#    Copyright (C) 2014
+#        Openmindsystems. (http://www.openmindsystems.com.es) All Rights Reserved
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+-->
+<openerp>
+	<data>
+
+		<!-- Datos generales de identificación PYMEs -->
+		<report id="report_datos_generales_identificacion_pyme"
+		string="Hoja de identificación PYMEs"
+		model="res.company.datos.generales.identificacion"
+		name="report.datos.generales.identificacion.pyme"
+		rml="l10n_es_identificacion_empresa/report/identificacion_pyme.odt"
+		auto="True"
+		menu="False"
+		header="False"
+		report_type="odt"/>
+		
+		<!-- Datos generales de identificación Abreviado -->
+		<report id="report_datos_generales_identificacion_abreviado"
+		string="Hoja de identificación Abreviado"
+		model="res.company.datos.generales.identificacion"
+		name="report.datos.generales.identificacion.abreviado"
+		rml="l10n_es_identificacion_empresa/report/identificacion_abreviado.odt"
+		auto="True"
+		menu="False"
+		header="False"
+		report_type="odt"/>	
+			
+		<!-- Datos generales de identificación Normal -->
+		<report id="report_datos_generales_identificacion_normal"
+		string="Hoja de identificación Normal"
+		model="res.company.datos.generales.identificacion"
+		name="report.datos.generales.identificacion.normal"
+		rml="l10n_es_identificacion_empresa/report/identificacion_normal.odt"
+		auto="True"
+		menu="False"
+		header="False"
+		report_type="odt"/>	
+
+	</data>
+</openerp>

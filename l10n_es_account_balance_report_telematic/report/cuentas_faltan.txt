@@ -1,0 +1,24 @@
+BALANCE NORMAL
+7. Propiedad intelectual -> 11180
+8. Derechos de emisión de gases de efecto invernadero -> 11190
+
+3. Reserva de revalorización -> 21330
+
+1. Provisiones por derechos de emisión de gases de efecto invernadero -> 32210
+2. Otras provisiones -> 32220
+
+PyG ABREVIADO
+19. Otros ingresos y gastos de carácter financiero -> 42100
+a) Incorporación al activo de gastos financieros -> 42110
+b) Ingresos financieros derivados de convenios de acreedores -> 42120
+c) Resto de ingresos y gastos -> 42130
+
+PyG Normal
+c) Ingresos de carácter financiero de las sociedades holding -> 40130
+e) Gastos por emisión de gases de efecto invernadero -> 40750
+c) Deterioro y resultados por enajenaciones del inmovilizado de las sociedades holding -> 41130
+
+19. Otros ingresos y gastos de carácter financiero -> 42100
+a) Incorporación al activo de gastos financieros -> 42110
+b) Ingresos financieros derivdos de convenios de acreedores -> 42120
+c) Resto de ingresos y gastos -> 42130
