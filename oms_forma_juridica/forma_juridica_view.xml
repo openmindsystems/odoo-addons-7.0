@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record id="view_forma_juridica_tree" model="ir.ui.view">
+			<field name="name">forma.juridica.tree</field>
+			<field name="model">forma.juridica</field>
+			<field name="arch" type="xml">
+				<tree string="Forma juridica">
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>
+		<record id="view_forma_juridica_form" model="ir.ui.view">
+			<field name="name">forma.juridica.form</field>
+			<field name="model">forma.juridica</field>
+			<field name="arch" type="xml">
+				<form string="Forma juridica">
+					<group>
+						<field name="name"/>
+					</group>
+				</form>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="custom_action_forma_juridica">
+			<field name="name">Formas juridicas</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">forma.juridica</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="custom_action_forma_juridica_tree" model="ir.actions.act_window.view">
+			<field name="view_mode">tree</field>
+			<field name="view_id" ref="view_forma_juridica_tree"/>
+			<field name="act_window_id" ref="custom_action_forma_juridica"/>
+		</record>
+		<record id="custom_action_forma_juridica_form" model="ir.actions.act_window.view">
+			<field name="view_mode">form</field>
+			<field name="view_id" ref="view_forma_juridica_form"/>
+			<field name="act_window_id" ref="custom_action_forma_juridica"/>
+		</record>
+		<menuitem id="menu_forma_juridica" parent="base.menu_base_config" name="Formas juridicas" action="custom_action_forma_juridica" groups="base.group_no_one"/>
+
+	</data>
+</openerp>

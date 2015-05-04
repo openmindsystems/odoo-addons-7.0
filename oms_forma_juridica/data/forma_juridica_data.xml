@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record model="forma.juridica" id="empresario_individual">
+			<field name="name">Empresario Individual (Autónomo)</field>
+		</record>
+				<record model="forma.juridica" id="emprendedor_responsabilidad_limitada">
+			<field name="name">Emprendedor de Responsabilidad Limitada</field>
+		</record>
+				<record model="forma.juridica" id="comunidad_bienes">
+			<field name="name">Comunidad de Bienes</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_civil">
+			<field name="name">Sociedad Civil</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_colectiva">
+			<field name="name">Sociedad Colectiva</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_comanditaria_simple">
+			<field name="name">Sociedad Comanditaria Simple</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_responsabilidad_limitada">
+			<field name="name">Sociedad de Responsabilidad Limitada</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_limitada_formacion_sucesiva">
+			<field name="name">Sociedad Limitada de Formación Sucesiva</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_limitada_nueva_empresa">
+			<field name="name">Sociedad Limitada Nueva Empresa</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_anonima">
+			<field name="name">Sociedad Anónima</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_comanditaria_acciones">
+			<field name="name">Sociedad Comanditaria por acciones</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_responsabilidad_limitada_laboral">
+			<field name="name">Sociedad de Responsabilidad Limitada Laboral</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_anonima_laboral">
+			<field name="name">Sociedad Anónima Laboral</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_cooperativa">
+			<field name="name">Sociedad Cooperativa</field>
+		</record>
+				<record model="forma.juridica" id="sociedades_profesionales">
+			<field name="name">Sociedades Profesionales</field>
+		</record>
+				<record model="forma.juridica" id="sociedad_garantia_reciproca">
+			<field name="name">Sociedad de Garantía Recíproca</field>
+		</record>
+				<record model="forma.juridica" id="entidades_capital_riesgo">
+			<field name="name">Entidades de Capital-Riesgo</field>
+		</record>
+				<record model="forma.juridica" id="agrupacion_interes_economico">
+			<field name="name">Agrupación de Interés Económico</field>
+		</record>
+
+	</data>
+</openerp>
